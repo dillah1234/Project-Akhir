@@ -2,7 +2,6 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import { jwtDecode } from "jwt-decode";
-import { FaShoppingCart, FaSearch, FaUserCircle } from "react-icons/fa";
 
 // CurrencyFormatter component
 const CurrencyFormatter = ({ number }) => {
